@@ -25,6 +25,9 @@ void printArray(const int *arr, int size);
  *  2. Write documentation for each of these functions
  *  3. Implement the functions in stats.c
  */
-double getMean( ,  );
-int getMin( ,  );
-int getMax( , );
+double getMean(int *arr, int size);
+//computes the average of the numbers given in the array
+int getMin(int *arr, int size);
+//finds the lowest value in the array
+int getMax(int *arr, int size);
+//finds the largest number in the array
